@@ -1,0 +1,793 @@
+{
+  "meta": {
+    "title": "OpenWithin — Close your eyes. Open your world.",
+    "description": "Personalized guided meditations, relaxation, Yoga Nidra and visualizations created around you — your name, your voice preferences, your inner world."
+  },
+  "common": {
+    "notFound": "This page has drifted away.",
+    "home": "Back to the beginning"
+  },
+  "nav": {
+    "explore": "Experiences",
+    "studio": "Studio",
+    "signIn": "Sign in",
+    "yourSpace": "Your space",
+    "signOut": "Sign out"
+  },
+  "footer": {
+    "tagline": "Personalized guided experiences, created around you. Close your eyes. Open your world.",
+    "product": "Product",
+    "explore": "Explore experiences",
+    "plans": "Plans",
+    "studio": "OpenWithin Studio",
+    "legal": "Legal",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "disclaimer": "OpenWithin is a tool for relaxation, imagination and self-reflection. It is not a medical device, does not provide therapy and does not replace professional care. Do not listen while driving."
+  },
+  "home": {
+    "eyebrow": "Your personal space, guided by a voice",
+    "heroTitle": "Close your eyes. Open your world.",
+    "heroSubtitle": "Personalized guided experiences, created around you.",
+    "ctaPrimary": "Create your experience",
+    "ctaSecondary": "Explore experiences",
+    "heroNote": "Hear a free 15-second preview with your name — no account needed.",
+    "story1": "You close your eyes.",
+    "story2": "An inner space opens.",
+    "story3": "You hear your own name.",
+    "story4": "An experience made for you begins.",
+    "createEyebrow": "Begin here",
+    "createTitle": "Create your experience",
+    "createSubtitle": "A few gentle questions. Then you'll hear the first seconds of a session written for you.",
+    "knowsEyebrow": "One voice. Your story. Your inner world.",
+    "knowsTitle": "Not just a voice. A voice that knows your story.",
+    "knowsBody": "Most audio sessions are recorded once for thousands of listeners. OpenWithin is shaped around one person: the voice, the narration, the length, the silences, the music — and only the personal details you choose to share.",
+    "adapt": {
+      "voice": {
+        "title": "Voice",
+        "body": "Choose a narrator whose tone feels right — soft, warm or deep."
+      },
+      "narration": {
+        "title": "Narration",
+        "body": "Written for your technique, in your language, never translated word for word."
+      },
+      "duration": {
+        "title": "Duration",
+        "body": "Five minutes between meetings or forty-five before sleep."
+      },
+      "pauses": {
+        "title": "Pauses",
+        "body": "Real, measured silence — rendered by the audio engine, not by punctuation."
+      },
+      "music": {
+        "title": "Sound",
+        "body": "Rain, waves, wind, soft tones or nothing but the voice."
+      },
+      "details": {
+        "title": "Your details",
+        "body": "Your name, a place you love, an intention — always optional, always yours to delete."
+      }
+    },
+    "pillars": {
+      "space": {
+        "name": "Space",
+        "body": "When you close your eyes, the outside world steps back and a much larger inner space appears."
+      },
+      "guidance": {
+        "name": "Guidance",
+        "body": "A calm voice leads you through carefully structured techniques — from Yoga Nidra to Jacobson."
+      },
+      "personalization": {
+        "name": "Personalization",
+        "body": "Every session is built from your preferences and context — so it feels created for you, not generated for everyone."
+      }
+    },
+    "popularTitle": "Popular experiences",
+    "seeAll": "See all",
+    "tryIt": "Try it",
+    "howTitle": "How it works",
+    "how1": {
+      "title": "Choose an experience",
+      "body": "Relaxation, meditation, visualization, sleep or a programme."
+    },
+    "how2": {
+      "title": "Tell us a little",
+      "body": "Your name and a few optional preferences. No diagnosis, no long forms."
+    },
+    "how3": {
+      "title": "Hear your preview",
+      "body": "15 real seconds, spoken for you, in your language."
+    },
+    "how4": {
+      "title": "Unlock the full session",
+      "body": "Sign in and your first full experience (up to 5 minutes) is free."
+    },
+    "studioTitle": "Turn your expertise into personalized audio experiences your clients can use anytime.",
+    "studioBody": "For psychologists, coaches, yoga teachers and mindfulness trainers. Write or edit the script, choose the voice, publish in minutes — no external shop needed.",
+    "studioCta": "Discover Studio",
+    "finalTitle": "Your journey can begin now."
+  },
+  "categories": {
+    "relaxation": "Relaxation",
+    "meditation": "Meditation",
+    "visualization": "Visualization",
+    "sleep": "Sleep",
+    "growth": "Personal growth"
+  },
+  "phases": {
+    "arrival": {
+      "name": "Arrival",
+      "body": "The voice greets you by name and helps you settle into a comfortable position."
+    },
+    "breath_settle": {
+      "name": "Settling the breath",
+      "body": "Noticing the natural breath without changing it, letting each exhale soften the body."
+    },
+    "breath_pattern": {
+      "name": "Counted breathing",
+      "body": "A steady rhythm counted for you, with real timed silences — and never long breath-holds."
+    },
+    "body_scan": {
+      "name": "Body scan",
+      "body": "Attention travels slowly from the feet to the head, with longer pauses where you hold tension."
+    },
+    "pmr_group": {
+      "name": "Tension & release",
+      "body": "Gently tensing one muscle group for a few seconds, then a long, quiet release."
+    },
+    "intention": {
+      "name": "Intention",
+      "body": "A short personal intention (sankalpa), repeated silently in your own words."
+    },
+    "rotation": {
+      "name": "Rotation of awareness",
+      "body": "The voice names points of the body one by one; attention simply follows."
+    },
+    "opposites": {
+      "name": "Opposites",
+      "body": "Sensing heaviness and lightness, warmth and coolness — observing without holding on."
+    },
+    "imagery_place": {
+      "name": "Your place",
+      "body": "Imagery of the setting you chose — its light, sounds and stillness."
+    },
+    "imagery_goal": {
+      "name": "Your goal",
+      "body": "A calm, concrete rehearsal of the moment you are working towards, and the steps on the way."
+    },
+    "imagery_confidence": {
+      "name": "Steady confidence",
+      "body": "Walking through the situation ahead: posture, breath, first words, and what to do if the unexpected happens."
+    },
+    "future_self": {
+      "name": "Future self",
+      "body": "Meeting a calmer, wiser version of yourself and listening to what they might say."
+    },
+    "safe_place": {
+      "name": "Calm inner place",
+      "body": "Building a comfortable inner space detail by detail, with an anchor to return to."
+    },
+    "awareness": {
+      "name": "Open awareness",
+      "body": "Resting with sounds, thoughts and the body as a whole — noticing without judging."
+    },
+    "gratitude": {
+      "name": "Gratitude",
+      "body": "Recalling small good moments and noticing how they feel in the body."
+    },
+    "energize": {
+      "name": "Gentle energy",
+      "body": "Deeper breaths and small movements to wake the body for the day."
+    },
+    "reflection": {
+      "name": "Reflection",
+      "body": "Quiet questions with space to listen to your own answers."
+    },
+    "sleep_descent": {
+      "name": "Drifting down",
+      "body": "Slower words, longer silences and a soft countdown towards rest."
+    },
+    "integration": {
+      "name": "Integration",
+      "body": "A moment to notice how you feel now, without needing it to be any particular way."
+    },
+    "return": {
+      "name": "Gentle return",
+      "body": "Deepening the breath, moving fingers and toes, and opening the eyes when ready."
+    },
+    "sleep_close": {
+      "name": "Fade to rest",
+      "body": "The voice fades into ambient sound. There is no wake-up at the end."
+    }
+  },
+  "landing": {
+    "point1": "A real 15-second preview with your name, free and without an account",
+    "point2": "Written for this technique, in English, Polish or Spanish",
+    "point3": "Your voice, pace, length, pauses and background sound",
+    "aboutTitle": "About {name}",
+    "forWhomTitle": "Good for you if…",
+    "flowTitle": "How your session flows",
+    "flowSubtitle": "Structure of a {minutes}-minute session. Longer sessions add more silence, not more words.",
+    "safetyNote": "You can pause or stop at any time. If any part feels uncomfortable, skip it or choose a simpler version. OpenWithin is a relaxation practice, not a medical treatment.",
+    "faqTitle": "Questions",
+    "relatedTitle": "Related experiences & programmes",
+    "program": "Programme",
+    "programDays": "{count} days",
+    "tryNow": "Create my {name}"
+  },
+  "generator": {
+    "stepYou": "About you",
+    "stepExperience": "Your experience",
+    "stepVoice": "Voice & length",
+    "stepOf": "Step {current} of {total}",
+    "nameLabel": "Your first name",
+    "namePlaceholder": "e.g. Anna",
+    "nameHint": "Spoken naturally in the first seconds of your session.",
+    "languageLabel": "Recording language",
+    "lang_en": "English",
+    "lang_pl": "Polski",
+    "lang_es": "Español",
+    "addressLabel": "We'll address you as",
+    "addressHint": "In Polish we use the vocative (e.g. Marek → Marku). Correct it if needed.",
+    "formLabel": "Grammatical form (optional)",
+    "form_neutral": "Neutral",
+    "form_feminine": "Feminine",
+    "form_masculine": "Masculine",
+    "optional": "optional",
+    "voiceLabel": "Voice",
+    "voice_soft": "Soft",
+    "voice_warm": "Warm",
+    "voice_deep": "Deep",
+    "voice_calm": "Calm",
+    "voice_bright": "Bright",
+    "durationLabel": "Planned length",
+    "durationHint": "Your first full session is free up to 5 minutes. Longer versions can be unlocked later.",
+    "minutes": "{count} min",
+    "styleLabel": "Style",
+    "ambientLabel": "Background sound",
+    "privacyNote": "Only your first name is required. Everything else is optional, used only for this session and deletable at any time.",
+    "back": "Back",
+    "next": "Continue",
+    "generate": "Generate my personal preview",
+    "generatingTitle": "Creating your moment, {name}…",
+    "generatingStatus0": "Writing the opening of your session",
+    "generatingStatus1": "Finding the right voice",
+    "generatingStatus2": "Placing the silences",
+    "generatingStatus3": "Adding a soft background",
+    "previewEyebrow": "Your personal preview",
+    "previewTitle": "This moment belongs to you, {name}.",
+    "transcript": "Show what is said",
+    "continueFull": "Create my full experience",
+    "adjust": "Adjust my answers",
+    "gateTitle": "Your journey has just begun.",
+    "gateSubtitle": "Sign in to unlock your full personal experience.",
+    "gateCta": "Unlock my experience",
+    "gateFreeNote": "Your first full session (up to 5 minutes) is on us. Your answers and this preview are kept.",
+    "gateProductNote": "Your answers and this preview are kept when you sign in.",
+    "unlockFull": "Unlock the full experience"
+  },
+  "questions": {
+    "goal": {
+      "label": "What would you like from this session?"
+    },
+    "tension_areas": {
+      "label": "Where do you usually hold tension?",
+      "hint": "These areas get a little more time."
+    },
+    "pace": {
+      "label": "Pace of the voice"
+    },
+    "intention": {
+      "label": "Your intention (sankalpa)",
+      "placeholder": "e.g. I meet the day with calm",
+      "hint": "A short sentence in the present tense."
+    },
+    "setting": {
+      "label": "A setting you'd like to imagine"
+    },
+    "favorite_place": {
+      "label": "Or describe your own favourite place",
+      "placeholder": "e.g. my grandmother's garden in summer",
+      "hint": "Only share what you're comfortable with."
+    },
+    "desired_situation": {
+      "label": "What would you like to imagine?",
+      "placeholder": "e.g. presenting my project calmly to the team"
+    },
+    "emotions": {
+      "label": "Feelings you'd like to explore",
+      "hint": "Up to three."
+    },
+    "sleep_sounds": {
+      "label": "Background sound"
+    },
+    "breath_pace": {
+      "label": "Breathing rhythm"
+    },
+    "gratitude_focus": {
+      "label": "Something you're grateful for",
+      "placeholder": "e.g. quiet mornings with coffee"
+    },
+    "event": {
+      "label": "The moment you're preparing for",
+      "placeholder": "e.g. a job interview on Friday"
+    }
+  },
+  "errors": {
+    "generic": "Something went wrong. Your answers are safe — please try again.",
+    "invalid_input": "Some answers can't be used. Please avoid links, contact details or instructions in the text fields.",
+    "sensitive_support": "It sounds like you may be going through something difficult. OpenWithin can't help with that, but people can: please reach out to someone you trust, a professional, or your local emergency number.",
+    "rate_limited": "You've created several previews in a short time. Please wait a little and try again.",
+    "daily_limit": "You've reached today's free previews. Sign in to continue — your answers are kept.",
+    "budget": "We're very busy right now. Please try again in a few minutes.",
+    "generation_failed": "We couldn't generate the audio this time. Nothing was charged — please try again.",
+    "unauthorized": "Please sign in to continue."
+  },
+  "login": {
+    "title": "Welcome",
+    "subtitle": "Sign in to your personal space.",
+    "funnelTitle": "Your journey has just begun.",
+    "funnelSubtitle": "Sign in to unlock your full personal experience. Everything you chose is kept.",
+    "google": "Continue with Google",
+    "apple": "Continue with Apple",
+    "or": "or",
+    "email": "Continue with email",
+    "demoContinue": "Continue (demo sign-in)",
+    "emailPlaceholder": "Your email",
+    "checkEmail": "Check your inbox — we sent you a sign-in link.",
+    "terms": "I accept the <terms>Terms</terms> and have read the <privacy>Privacy notice</privacy>.",
+    "marketing": "Optional: send me occasional emails about new experiences. You can unsubscribe anytime.",
+    "error": "We couldn't sign you in. Please try again.",
+    "unconfigured": "Sign-in is not configured yet. Set the Supabase keys (see README) or DEMO_MODE=true for local development.",
+    "demoNotice": "Demo mode: local sign-in without a password, for development only. Configure Supabase Auth for Google, Apple and email links."
+  },
+  "continue": {
+    "title": "Your full experience is being created, {name}.",
+    "subtitle": "Built from the choices you made before signing in.",
+    "status_queued": "Preparing your session",
+    "status_scripting": "Writing your session",
+    "status_synthesizing": "Recording the voice",
+    "status_assembling": "Placing silences and sound",
+    "status_completed": "Ready",
+    "background": "This happens in the background. You can leave this page — your session will appear in your space.",
+    "needsPurchase": "You've used your free session. Choose how you'd like to continue.",
+    "seeOptions": "See options",
+    "failed": "We couldn't finish this recording.",
+    "failedSafe": "Your settings are safe and nothing was charged — your credit has been returned.",
+    "retry": "Try again"
+  },
+  "player": {
+    "play": "Play",
+    "pause": "Pause",
+    "back15": "Back 15 seconds",
+    "fwd15": "Forward 15 seconds",
+    "position": "Playback position",
+    "demoAudio": "Demo mode: offline placeholder voice (no ElevenLabs key configured). Real voices are generated in production."
+  },
+  "experience": {
+    "previewLabel": "15-second preview",
+    "minutes": "{count} min",
+    "freshNote": "just created for you",
+    "purchaseThanks": "Thank you. Your purchase is ready in your space.",
+    "stopAnytime": "You can pause or stop at any moment. Please don't listen while driving.",
+    "saveToLibrary": "Save to My Library",
+    "savedInLibrary": "In My Library",
+    "favorite": "Favourite"
+  },
+  "upsell": {
+    "title": "Go further",
+    "subtitle": "Your settings are saved. Choose what fits you best.",
+    "extendTitle": "Extend to 30 minutes",
+    "extendBody": "The same session, created again in a full 30-minute version with more space and silence.",
+    "packTitle": "Create 5 personalized sessions",
+    "packBody": "Five sessions of up to 30 minutes, for any technique — to use whenever you like.",
+    "programTitle": "Start a guided programme",
+    "programBody": "Several days of sessions that build on each other — relaxation, evening calm or Jacobson.",
+    "planTitle": "Unlock premium personalization",
+    "planBody": "Personal Plan: up to {credits} new sessions a month, up to 45 minutes, with your saved personal context.",
+    "perMonth": "/ month",
+    "choose": "Choose",
+    "browse": "Browse",
+    "redirecting": "Redirecting…",
+    "useCredit": "Create my {minutes}-minute version",
+    "creditsLeft": "{count, plural, one {# session} other {# sessions}} available",
+    "digitalConsent": "I want access immediately and acknowledge that I lose my right of withdrawal once the digital content has been delivered.",
+    "continueToPayment": "Continue to secure payment",
+    "error_payments": "Payments are not configured yet.",
+    "error_generic": "We couldn't start the payment. Please try again."
+  },
+  "space": {
+    "eyebrow": "Your space",
+    "welcome": "Welcome back, {name}.",
+    "welcomeAnon": "Welcome back.",
+    "feel": "How would you like to feel today?",
+    "moods": {
+      "relax": "Relax",
+      "sleep": "Sleep",
+      "focus": "Focus",
+      "visualize": "Visualize",
+      "recharge": "Recharge",
+      "program": "Continue my programme"
+    },
+    "credits": "{count, plural, one {# session} other {# sessions}} available, up to {minutes} min.",
+    "noCredits": "No sessions available right now — replaying your recordings is always free.",
+    "plans": "See plans",
+    "continueListening": "Continue listening",
+    "myPrograms": "My programmes",
+    "programProgress": "{done} of {total} days",
+    "myExperiences": "My experiences",
+    "createNew": "Create new",
+    "emptyExperiences": "Your recordings will appear here.",
+    "plays": "{count, plural, one {# listen} other {# listens}}",
+    "favorites": "Favourites",
+    "previews": "Your previews",
+    "explore": "Explore",
+    "exploreBody": "Techniques and programmes",
+    "profile": "Personalization profile",
+    "profileBody": "Voice, preferences and what may be used",
+    "noGuilt": "No streaks, no pressure. Come back whenever it feels right."
+  },
+  "create": {
+    "eyebrow": "Create",
+    "title": "Choose an experience",
+    "subtitle": "Every technique has its own structure and questions. Start with the one that calls you."
+  },
+  "explore": {
+    "title": "Experiences",
+    "subtitle": "Relaxation, meditation, visualization and sleep — each one created around you.",
+    "durations": "{min}–{max} min",
+    "programsTitle": "Programmes",
+    "programsSubtitle": "Short series that build gently from day to day.",
+    "days": "{count} days",
+    "viewProgram": "View programme"
+  },
+  "programs": {
+    "eyebrow": "Programme · {count} days",
+    "progress": "{done} of {total} days completed",
+    "noPressure": "Go at your own pace. Missing a day is fine — the programme waits for you.",
+    "listen": "Listen",
+    "create": "Create",
+    "creditsNote": "Each new day uses one session from your plan or pack. Listening again is always free."
+  },
+  "plans": {
+    "title": "Plans",
+    "subtitle": "Start free. Unlock longer sessions, packs or a monthly plan when you're ready.",
+    "note": "Prices include VAT where applicable. Recordings stay in your library; replaying them is always free. If a generation fails you are never charged."
+  },
+  "checkout": {
+    "demoEyebrow": "Demo checkout",
+    "product": "Product",
+    "demoNotice": "Demo mode: no payment provider is configured, so this simulates a successful test payment. With Stripe keys set, real Stripe Checkout (test mode) is used.",
+    "simulate": "Simulate successful payment",
+    "processing": "Processing…",
+    "goToSpace": "Go to your space"
+  },
+  "profile": {
+    "title": "Personalization profile",
+    "subtitle": "Everything here is optional. You decide what may be used, and you can delete it anytime.",
+    "saved": "Saved.",
+    "invalid": "Some text could not be saved. Please avoid links and contact details.",
+    "identity": "Identity",
+    "firstName": "First name",
+    "addressAs": "Form of address",
+    "recordingLanguage": "Recording language",
+    "voice": "Preferred voice",
+    "preferences": "Experience preferences",
+    "speed": "Narration speed",
+    "pauses": "Pauses",
+    "pause_short": "Shorter",
+    "pause_balanced": "Balanced",
+    "pause_spacious": "Spacious",
+    "duration": "Default length (min)",
+    "style": "Style",
+    "ambient": "Background sound",
+    "level": "Level of personalization",
+    "level_light": "Light — name and place only",
+    "level_balanced": "Balanced",
+    "level_deep": "Deep — may use allowed personal context",
+    "levelHint": "Personal context is never used in breathing or muscle relaxation sessions, and never more than twice per session.",
+    "environment": "Environment",
+    "favoritePlace": "Favourite place",
+    "listening": "Where you usually listen",
+    "env_bed": "In bed",
+    "env_sofa": "On the sofa",
+    "env_desk": "At a desk",
+    "env_commute": "On the way (not driving)",
+    "env_outdoors": "Outdoors",
+    "save": "Save",
+    "contextTitle": "Personal context",
+    "contextBody": "Motivations, aspirations, people or memories you'd like your sessions to draw on. Each item is used only in the categories you tick.",
+    "kind_motivation": "Motivation",
+    "kind_aspiration": "Aspiration",
+    "kind_goal": "Goal",
+    "kind_person": "Important person",
+    "kind_memory": "Memory",
+    "tone_positive": "Pleasant",
+    "tone_neutral": "Neutral",
+    "tone_mixed": "Mixed",
+    "notUsed": "not used yet",
+    "labelPlaceholder": "A few words, e.g. \"walks by the sea\"",
+    "allowIn": "May be used in:",
+    "contextWarning": "Please don't add health information. When mentioning other people — especially children — use only a first name or a role, and only what they'd be comfortable with. Memories marked mixed are never used.",
+    "add": "Add",
+    "remove": "Remove",
+    "remindersTitle": "Gentle reminders",
+    "remindersBody": "Optional, at a time you choose. No streaks and no guilt if you skip a day.",
+    "remindersEnable": "Remind me gently",
+    "marketing": "Send me occasional emails about new experiences (optional)",
+    "privacyTitle": "Your data",
+    "privacyBody": "Export everything we store about you, delete your personalization profile, or delete your account and recordings.",
+    "export": "Export my data",
+    "wipeProfile": "Delete personalization profile",
+    "deleteAccount": "Delete account",
+    "confirmWipeProfile": "Delete your personalization profile and personal context? Your recordings stay.",
+    "confirmDelete": "Delete your account and all recordings permanently? This cannot be undone."
+  },
+  "store": {
+    "free": "Free",
+    "empty": "No published experiences yet.",
+    "programDays": "{count}-day programme",
+    "single": "Single experience",
+    "upTo": "up to {minutes} min per session",
+    "personalized": "Personalized with your name and your answers",
+    "disclaimer": "Created by {author}, who is responsible for its content. This is a relaxation and self-reflection practice, not a substitute for therapy or medical care.",
+    "price": "Price",
+    "code": "Discount code (optional)",
+    "consent": "I want access immediately and acknowledge that I lose my right of withdrawal once the digital content has been delivered.",
+    "buy": "Buy and receive my sessions",
+    "redirecting": "Redirecting…",
+    "delivery": "Your personalized sessions are generated right after payment and appear in your space.",
+    "getFree": "Get my personal experience",
+    "createMine": "Create my personal session",
+    "error": "Something went wrong. Please try again."
+  },
+  "share": {
+    "from": "Shared with you by {name}",
+    "note": "Shared privately. Nothing to pay. Your answers are visible only to you."
+  },
+  "studio": {
+    "nav": {
+      "overview": "Overview",
+      "experiences": "My experiences",
+      "create": "Create",
+      "store": "My store",
+      "analytics": "Analytics",
+      "settings": "Settings",
+      "back": "OpenWithin"
+    },
+    "status": {
+      "draft": "Draft",
+      "pending_review": "In review",
+      "published": "Published",
+      "rejected": "Needs changes",
+      "archived": "Archived"
+    },
+    "productType": {
+      "single": "Single",
+      "program": "Programme"
+    },
+    "marketing": {
+      "title": "Turn your expertise into personalized audio experiences your clients can use anytime.",
+      "subtitle": "OpenWithin Studio lets psychologists, coaches, yoga teachers and mindfulness trainers create guided audio that speaks to each client by name — and publish it in minutes.",
+      "point1": "Start from a technique template or write your own script — edit every sentence and every pause.",
+      "point2": "Choose the voice, language, background sound and narrator instructions; hear a sample before publishing.",
+      "point3": "Publish a single experience or a multi-day programme with a price and a shareable link.",
+      "point4": "Each buyer personalizes it and receives their own recording — no external shop, no CRM integration.",
+      "point5": "Psychologists and psychotherapists can share privately with clients, without selling.",
+      "cta": "Create your Studio",
+      "pricing": "Starter Studio is free with a commission on sales. Studio Pro lowers the commission for a monthly fee.",
+      "responsibility": "You remain responsible for the content you publish. Products may not be presented as therapy or treatment, and every publication passes an automated safety check with human review where needed."
+    },
+    "onboarding": {
+      "title": "Create your Studio",
+      "subtitle": "Your public profile. You can change it later.",
+      "displayName": "Name shown to clients",
+      "slug": "Your address",
+      "profession": "Profession",
+      "prof_psychologist": "Psychologist",
+      "prof_psychotherapist": "Psychotherapist",
+      "prof_coach": "Coach",
+      "prof_yoga_teacher": "Yoga teacher",
+      "prof_mindfulness_trainer": "Mindfulness trainer",
+      "prof_wellness": "Wellness professional",
+      "prof_performance_coach": "Mental performance coach",
+      "headline": "Short headline",
+      "bio": "About you",
+      "credentials": "Qualifications",
+      "website": "Website",
+      "terms": "I confirm that I hold the qualifications I state, that I am responsible for the content I publish, and that I won't present it as therapy or treatment.",
+      "submit": "Create Studio",
+      "error_slug": "This address is not available. Please choose another.",
+      "error_generic": "Please check the form and try again."
+    },
+    "overview": {
+      "title": "Welcome, {name}",
+      "subtitle": "Your experiences at a glance.",
+      "created": "Experiences created",
+      "published": "Published products",
+      "sales": "Total sales",
+      "revenue": "Revenue",
+      "pendingPayouts": "Pending payouts",
+      "quickTitle": "Something new?",
+      "quickBody": "Create an experience in a few minutes.",
+      "recent": "Products",
+      "empty": "Nothing here yet."
+    },
+    "experiences": {
+      "library": "Audio library",
+      "libraryHint": "Your scripts (templates). Each one can become a single product or a day in a programme.",
+      "drafts": "Draft products",
+      "published": "Published products"
+    },
+    "compose": {
+      "title": "Create an experience",
+      "subtitle": "Pick a technique and settings. We'll compose a structured script you can edit line by line.",
+      "composerNote": "No LLM key configured: the script is composed from OpenWithin's built-in, technique-specific templates. You can edit everything.",
+      "name": "Working title",
+      "namePlaceholder": "e.g. Evening release for my clients",
+      "technique": "Technique",
+      "language": "Language",
+      "duration": "Length",
+      "voice": "Voice",
+      "ambient": "Background sound",
+      "ambientVolume": "Background volume",
+      "pauses": "Pauses",
+      "pause_short": "Shorter",
+      "pause_balanced": "Balanced",
+      "pause_spacious": "Spacious",
+      "style": "Style",
+      "style_gentle": "Gentle & warm",
+      "style_grounded": "Grounded & simple",
+      "style_poetic": "Poetic & imaginative",
+      "style_minimal": "Minimal, more silence",
+      "instructions": "Instructions for the narrator",
+      "instructionsPlaceholder": "e.g. Use simple language, mention the breath often, avoid water imagery.",
+      "instructionsHint": "Used when writing the script. Never include client data or therapy notes.",
+      "compose": "Compose script",
+      "composing": "Composing…",
+      "error": "Please check the form."
+    },
+    "editor": {
+      "help": "Edit any sentence, pause or order. Placeholders like '{{name}}', '{{place}}' or '{{intention}}' are filled for each client; sentences whose placeholder has no answer are skipped. Keep '{{name}}' in the first segment.",
+      "createProduct": "Create product",
+      "pauseAfter": "Pause after",
+      "fixedPause": "exact (breath / hold)",
+      "addAfter": "Add segment",
+      "up": "Move up",
+      "down": "Move down",
+      "remove": "Remove",
+      "estimated": "Estimated length",
+      "segments": "{count} segments",
+      "save": "Save changes",
+      "saving": "Saving…",
+      "saved": "All changes saved",
+      "checks": "Quality & safety checks",
+      "noIssues": "No issues found.",
+      "issue_missing_phase": "A required part of the technique is missing",
+      "issue_phase_order": "Parts are out of the technique's order",
+      "issue_language_mismatch": "The text doesn't seem to be in the selected language",
+      "issue_medical_claim": "Contains a medical or therapeutic claim",
+      "issue_unsafe_technique": "Mentions a technique that requires specialist guidance",
+      "issue_breath_hold": "Asks to hold the breath",
+      "issue_wake_in_sleep": "A sleep session should not end with a wake-up",
+      "issue_name_overuse": "The name is used too often",
+      "issue_name_missing": "Add '{{name}}' to the first segment",
+      "issue_segment_too_long": "A segment is too long",
+      "issue_too_many_chars": "The script is too long for its duration",
+      "issue_empty": "The script is empty",
+      "sampleTitle": "Hear a sample",
+      "sampleHint": "The first ~45 seconds, spoken with this name.",
+      "sampleCta": "Generate sample",
+      "sample_working": "Generating…",
+      "sample_failed": "The sample couldn't be generated.",
+      "sample_sample_quota": "Monthly sample limit reached for your plan."
+    },
+    "product": {
+      "newTitle": "New product",
+      "newSubtitle": "Set the price, the link and what clients personalize.",
+      "clinicalNote": "As a psychologist or psychotherapist you can keep products private and share them with clients without selling.",
+      "clinicalShare": "Free products can be shared privately via single-use links.",
+      "noTemplates": "Create an experience first — products are built from your scripts.",
+      "type_single": "Single experience",
+      "type_program": "Multi-day programme",
+      "title": "Title",
+      "titlePlaceholder": "e.g. 7 Days of Deep Relaxation",
+      "slug": "Link",
+      "description": "Description",
+      "session": "Session",
+      "days": "Days",
+      "day": "Day {n}",
+      "addDay": "Add day",
+      "personalization": "What clients personalize (besides their name)",
+      "personalizationHint": "Use matching placeholders in your script, e.g. '{{place}}' or '{{intention}}'.",
+      "field_setting": "Setting",
+      "field_favorite_place": "Favourite place",
+      "field_intention": "Intention",
+      "field_desired_situation": "Situation to imagine",
+      "field_emotions": "Feelings",
+      "field_tension_areas": "Tension areas",
+      "field_sleep_sounds": "Background sound",
+      "field_goal": "Goal",
+      "free": "Free product",
+      "visibility": "Visibility",
+      "vis_public": "Public — listed in my store",
+      "vis_unlisted": "Unlisted — only via link",
+      "vis_private": "Private — only via share links",
+      "create": "Create product",
+      "error": "Please check the form.",
+      "links": "Links",
+      "publicUrl": "Product page",
+      "checkoutLink": "Direct checkout link",
+      "shareTitle": "Private share links",
+      "shareBody": "Give a client access without a sale. Add only a private label — no client data needed.",
+      "shareNote": "Private label",
+      "shareCreate": "Create link",
+      "discountTitle": "Discount codes",
+      "discountCreate": "Create code",
+      "maxUses": "Max uses",
+      "price": "Price",
+      "freeLabel": "Free",
+      "ack": "I confirm I am responsible for this content, it is within my professional competence, and it is not presented as therapy or treatment.",
+      "publish": "Publish",
+      "unpublish": "Unpublish",
+      "pendingReview": "An automated check flagged something in the script. Our team will review it shortly — you can edit the script meanwhile.",
+      "err_ack": "Please confirm your responsibility before publishing.",
+      "err_price_required": "Set at least one price or mark the product as free.",
+      "err_generic": "Something went wrong."
+    },
+    "store": {
+      "title": "My store",
+      "subtitle": "Your public storefront and product pages.",
+      "storefront": "Storefront",
+      "brandingHint": "Your name, bio and accent colour appear on your pages.",
+      "editBranding": "Edit branding",
+      "manage": "Manage"
+    },
+    "analytics": {
+      "title": "Analytics",
+      "subtitle": "Last 30 days, aggregated.",
+      "visits": "Page visits",
+      "previewPlays": "Preview plays",
+      "checkoutStarts": "Checkout starts",
+      "purchases": "Completed purchases",
+      "conversion": "Conversion rate",
+      "revenue": "Revenue",
+      "repeatBuyers": "Returning buyers",
+      "privacy": "Analytics are aggregated. You never see what individual clients typed or listened to."
+    },
+    "settings": {
+      "title": "Settings",
+      "saved": "Saved.",
+      "payoutRecorded": "Payout recorded.",
+      "err_payments_not_configured": "Payments are not configured on this platform yet.",
+      "err_nothing_to_pay": "There is nothing to pay out yet.",
+      "err_consent": "Both confirmations are required.",
+      "err_generic": "Something went wrong.",
+      "profile": "Profile & branding",
+      "displayName": "Name",
+      "headline": "Headline",
+      "bio": "About you",
+      "credentials": "Qualifications",
+      "website": "Website",
+      "brandColor": "Accent colour",
+      "clinicalMode": "Clinical mode — default to private sharing instead of selling to clients",
+      "save": "Save",
+      "subscription": "Subscription",
+      "planLine": "Your plan: {plan}. Platform commission: {rate}% of net sales.",
+      "upgrade": "Upgrade to Studio Pro ({rate}% commission)",
+      "payouts": "Payouts",
+      "connectStatus": "Stripe Connect",
+      "payoutsReady": "payouts enabled",
+      "payoutsDisabled": "Payouts are currently held by the platform until seller-of-record, tax and refund settings are fully configured. Your earnings are recorded and safe.",
+      "connect": "Set up payouts with Stripe",
+      "accrued": "Accrued earnings",
+      "requestPayout": "Request payout of {amount}",
+      "voice": "Voice settings",
+      "voiceBody": "You can clone your own voice for your experiences. This requires identity verification and your explicit consent, in line with our voice provider's terms. Only your own voice can be cloned.",
+      "voiceIdentity": "I agree to verify my identity before cloning is enabled.",
+      "voiceConsent": "I am the owner of this voice and consent to it being cloned for my own OpenWithin content.",
+      "voiceRequest": "Request voice cloning",
+      "voiceStatus": "Request status"
+    }
+  }
+}

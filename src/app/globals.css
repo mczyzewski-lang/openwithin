@@ -1,0 +1,128 @@
+@import "tailwindcss";
+
+@theme {
+  --color-night: #101823;
+  --color-night-2: #151f2c;
+  --color-night-3: #1c2837;
+  --color-night-4: #26344a;
+  --color-ivory: #f4f1eb;
+  --color-ivory-2: #ebe6dc;
+  --color-champagne: #d8c7a7;
+  --color-champagne-2: #c4b08c;
+  --color-slate: #aeb8c7;
+  --color-slate-2: #7f8a9b;
+  --color-danger: #e2a59b;
+
+  --font-sans: ui-sans-serif, -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+
+  --animate-breathe: breathe 9s ease-in-out infinite;
+  --animate-drift: drift 24s linear infinite;
+  --animate-fade-up: fade-up 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+
+  @keyframes breathe {
+    0%, 100% { transform: scale(0.82); opacity: 0.55; }
+    50% { transform: scale(1.12); opacity: 1; }
+  }
+  @keyframes drift {
+    from { transform: translateY(0); }
+    to { transform: translateY(-100vh); }
+  }
+  @keyframes fade-up {
+    from { opacity: 0; transform: translateY(14px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    @apply bg-night text-ivory font-sans antialiased;
+    min-height: 100dvh;
+  }
+  ::selection {
+    background: color-mix(in oklab, var(--color-champagne) 40%, transparent);
+  }
+  h1, h2, h3 {
+    @apply font-serif tracking-tight;
+    font-weight: 400;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-champagne);
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 text-[15px] font-medium transition duration-300 disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 text-[15px] font-medium transition duration-300 disabled:cursor-not-allowed disabled:opacity-50 bg-champagne text-night hover:bg-ivory;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 text-[15px] font-medium transition duration-300 disabled:cursor-not-allowed disabled:opacity-50 border border-ivory/15 text-ivory hover:border-champagne/60 hover:text-champagne;
+  }
+  .btn-dark {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 text-[15px] font-medium transition duration-300 disabled:cursor-not-allowed disabled:opacity-50 bg-night text-ivory hover:bg-night-3;
+  }
+  .card {
+    @apply rounded-3xl border border-ivory/8 bg-night-2/80;
+  }
+  .chip {
+    @apply inline-flex cursor-pointer select-none items-center gap-2 rounded-full border border-ivory/12 px-4 py-2.5 text-sm text-ivory/80 transition hover:border-champagne/50;
+  }
+  .chip[data-active="true"] {
+    @apply border-champagne bg-champagne/12 text-champagne;
+  }
+  .input {
+    @apply w-full rounded-2xl border border-ivory/12 bg-night-3/60 px-4 py-3.5 text-[16px] text-ivory placeholder:text-slate-2 outline-none transition focus:border-champagne/70;
+  }
+  .label {
+    @apply mb-2 block text-sm text-slate;
+  }
+  .eyebrow {
+    @apply text-xs uppercase tracking-[0.22em] text-champagne/80;
+  }
+  .prose-calm p {
+    @apply mb-4 leading-relaxed text-ivory/80;
+  }
+
+  /* Light theme for OpenWithin Studio (working tool) */
+  .studio {
+    @apply bg-ivory text-night;
+  }
+  .studio .card {
+    @apply border-night/8 bg-white;
+  }
+  .studio .input {
+    @apply border-night/15 bg-white text-night placeholder:text-slate-2 focus:border-night/60;
+  }
+  .studio .label {
+    @apply text-night/60;
+  }
+  .studio .btn-primary {
+    @apply bg-night text-ivory hover:bg-night-3;
+  }
+  .studio .btn-ghost {
+    @apply border-night/15 text-night hover:border-night/50 hover:text-night;
+  }
+  .studio .chip {
+    @apply border-night/15 text-night/70;
+  }
+  .studio .chip[data-active="true"] {
+    @apply border-night bg-night text-ivory;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
