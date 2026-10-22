@@ -1,7 +1,7 @@
 node_modules
 .next
 out
-storage
+/storage
 .env
 .env.local
 *.tsbuildinfo
@@ -9,4 +9,4 @@ next-env.d.ts
 test-results
 playwright-report
 coverage
-storage-test
+/storage-test
